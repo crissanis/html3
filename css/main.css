@@ -1347,7 +1347,20 @@ span.form-pie {
   .xxx{padding-left: 0;padding-right: 0;}
   #portfolios .container {padding-left: 0;padding-right: 0;}
 
- 
+  .logo a{background: white; opacity: 0.9;  margin-left: 20px;}
+  .logo object {height: 92px;}
+  .viisblemobil {display: none;}
+
+  .padding2 {
+    padding: 10px;
+  }
+  .form-wrapper h4 {font-size:2em;}
+
+
+
+.form-control::-webkit-input-placeholder{color:#fff;opacity:1}
+.form-control:-ms-input-placeholder{color:#fff;opacity:1}
+.form-control::placeholder{color:#fff;opacity:1}
   @media (min-width: 768px) and (max-width: 991.98px){
   #hero-area .container {
   
@@ -1358,7 +1371,37 @@ span.form-pie {
 }
 
 @media (max-width: 767px){ 
+  .form-control:focus{color:#000;}
+  .form-wrapper {
+    background: #fff;
+   
+    color: #333;
 
+}
+.form-control{color:#333}
+.form-control::-webkit-input-placeholder{color:#333;opacity:1}
+.form-control:-ms-input-placeholder{color:#333;opacity:1}
+.form-control::placeholder{color:#333;opacity:1}
+  #hero-area .container-fluid {padding-left: 0;padding-right: 0;}
+  a.logo.navbar-btn.pull-left {
+    display: block;
+    float: none;
+}
+.logo object {
+  height: 70px;
+  display: block;
+  margin: auto;
+  
+}
+  .sinmar {background: #000;    opacity: 0.7;}
+  .viisblemobil {display: block;background: #00bfff;}
+  #hero-area {
+    background: none;
+   
+   
+}
+
+  .viisblemobil {display: block;background: #00bfff;}
   .section {
     padding: 30px 15px;
 }
@@ -1377,10 +1420,23 @@ span.form-pie {
     padding: 10px;width: auto;    right: 0;}
   }
 
-.form-wrapper h4 {font-size:2em;}
 
-
-
-.form-control::-webkit-input-placeholder{color:#fff;opacity:1}
-.form-control:-ms-input-placeholder{color:#fff;opacity:1}
-.form-control::placeholder{color:#fff;opacity:1}
+@media(max-width:580px){
+  .viisblemobil img{
+    height: 250px;
+    width: 100%;
+    -o-object-fit: cover;
+        object-fit: cover;
+    }
+    div#logo {
+      position: absolute;
+      z-index: 9999;
+      top: 0;
+      right: 44%;
+  }
+  .sinmar {
+   
+    opacity: 1;
+}
+h1{font-size: 28px ;}
+}
