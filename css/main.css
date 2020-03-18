@@ -1371,6 +1371,9 @@ span.form-pie {
 }
 
 @media (max-width: 767px){ 
+  .form-wrapper h4 {
+    font-size: 1.3em;
+}
   .form-control:focus{color:#000;}
   .form-wrapper {
     background: #fff;
@@ -1378,7 +1381,7 @@ span.form-pie {
     color: #333;
 
 }
-.form-control{color:#333}
+.form-control{color:#333;font-size: 15px;border-color: #333;}
 .form-control::-webkit-input-placeholder{color:#333;opacity:1}
 .form-control:-ms-input-placeholder{color:#333;opacity:1}
 .form-control::placeholder{color:#333;opacity:1}
