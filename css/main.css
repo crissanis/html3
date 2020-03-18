@@ -1371,6 +1371,19 @@ span.form-pie {
 }
 
 @media (max-width: 767px){ 
+  .testimonial-item img {
+    width: 150px;
+    height: 150px;
+}
+  #services{
+    border-top-color: #efefef;
+    border-top-style: solid;
+    /* margin-top: 20px; */
+    border-bottom-color: #efefef;
+    border-bottom-style: solid;
+    border-top-width: 5px;
+    margin-top: 30px;
+  }
   .form-wrapper h4 {
     font-size: 1.3em;
 }
