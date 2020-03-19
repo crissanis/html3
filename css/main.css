@@ -1000,9 +1000,9 @@ button:focus {
 }
 
 .testimonial-item img {
-  width: 80px;
+  width: 150px;
   border: 3px solid #fff;
-  height: 80px;
+  height: 150px;
   border-radius: 50%;
 }
 
@@ -1307,16 +1307,16 @@ footer {
 
 .form-wrapper {
 
-  background: #019BDD;
+  background: #fff;
   opacity: .9;
-  color: #FFF;
+  color: #333;
   padding: 5px 20px;
   position: absolute;
   right: 10%;
   top: 0;
   width: 520px;
   z-index: 1;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 10px;
   border-radius: 8px;
 
@@ -1356,11 +1356,14 @@ span.form-pie {
   }
   .form-wrapper h4 {font-size:2em;}
 
+  .form-group {
+    margin-bottom: 0.8rem;
+}
 
-
-.form-control::-webkit-input-placeholder{color:#fff;opacity:1}
-.form-control:-ms-input-placeholder{color:#fff;opacity:1}
-.form-control::placeholder{color:#fff;opacity:1}
+  .form-control{color:#333;font-size: 15px;border-color: #333;}
+  .form-control::-webkit-input-placeholder{color:#333;opacity:1}
+  .form-control:-ms-input-placeholder{color:#333;opacity:1}
+  .form-control::placeholder{color:#333;opacity:1}
   @media (min-width: 768px) and (max-width: 991.98px){
   #hero-area .container {
   
@@ -1371,10 +1374,7 @@ span.form-pie {
 }
 
 @media (max-width: 767px){ 
-  .testimonial-item img {
-    width: 150px;
-    height: 150px;
-}
+
   #services{
     border-top-color: #efefef;
     border-top-style: solid;
@@ -1388,16 +1388,8 @@ span.form-pie {
     font-size: 1.3em;
 }
   .form-control:focus{color:#000;}
-  .form-wrapper {
-    background: #fff;
-   
-    color: #333;
 
-}
-.form-control{color:#333;font-size: 15px;border-color: #333;}
-.form-control::-webkit-input-placeholder{color:#333;opacity:1}
-.form-control:-ms-input-placeholder{color:#333;opacity:1}
-.form-control::placeholder{color:#333;opacity:1}
+
   #hero-area .container-fluid {padding-left: 0;padding-right: 0;}
   a.logo.navbar-btn.pull-left {
     display: block;
